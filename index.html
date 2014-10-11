@@ -5,6 +5,7 @@ title: MyBlog@Git
 <h1>{{ page.title }}</h1>
 <p>最新文章ssss</p>
 <ul>
+<li>my first blog</li>
 	{% for post in site.posts %}
 		<li>{{ post.date | date_to_string }} <a href="{{ post.url }}">{{ post.title }}</a></li>
 	{% endfor %}
