@@ -7,6 +7,8 @@ title: MyBlog@Git
 <ul>
 <li>my first blog</li>
 	{% for post in site.posts %}
+	
+	<p>最新文章sssssssssssdddd</p>
 		<li>{{ post.date | date_to_string }} <a href="{{ post.url }}">{{ post.title }}</a></li>
 	{% endfor %}
 </ul>
